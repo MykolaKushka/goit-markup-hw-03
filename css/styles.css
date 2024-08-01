@@ -12,6 +12,14 @@ ul{
   list-style: none;
 }
 
+img{
+  display: block;
+}
+
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .text-main{
   font-size: 16px;
   line-height: 1.5;
@@ -48,7 +56,20 @@ ul{
 .logo__black-part{
   color: #2e2f42;
 }
+
+.container{
+  width: 1158px; 
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+
+
 /******************************** Header section *********************************/
+.header-inner{
+  display: flex;
+}
+
 .header-address{
   font-style: normal;
 }
@@ -67,6 +88,31 @@ ul{
 .header-link:hover, .header-link:focus, .header-address__item:hover, .header-address__item:focus{
   color: #404bbf;
 }
+
+.nav{
+  display: flex; 
+  align-items: center;
+  gap: 40px;
+}
+
+.logo{
+  margin-right: 76px;
+}
+
+.menu{
+  display: flex;
+  gap: 40px;
+}
+
+.header-link{
+  padding: 24px 0;
+}
+
+.address{
+  display: flex;
+  gap: 40px;
+}
+
 
 /**************************** End of the Header section ***************************/
 
