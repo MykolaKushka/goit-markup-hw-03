@@ -1,0 +1,136 @@
+body{
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.text-main{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em
+}
+
+.title_md{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.title_lg{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.logo{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo__black-part{
+  color: #2e2f42;
+}
+/******************************** Header section *********************************/
+.header-address{
+  font-style: normal;
+}
+
+.header-address__item, .header-link{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-link{
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.header-link:hover, .header-link:focus, .header-address__item:hover, .header-address__item:focus{
+  color: #404bbf;
+}
+
+/**************************** End of the Header section ***************************/
+
+
+/********************************** Hero section **********************************/
+.hero-section{
+  background-color: #2e2f42;
+}
+
+.hero-section__title{
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-section__btn{
+  background-color: #4D5AE5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-section__btn:hover, .hero-section__btn:focus{
+  background-color: #404BBF;
+}
+/******************************* End of the Hero section *******************************/
+
+
+/********************************** Advantages section *********************************/
+
+/**************************** End of the Advantages section ****************************/
+
+
+/*********************************** Our Team section **********************************/
+.team{
+  background-color: #F4F4FD;
+}
+
+.card-person{
+  background-color: #FFFFFF;
+
+}
+
+/**************************** End of the Our Team section ****************************/
+
+
+/*************************************** Footer ***************************************/
+
+.footer{
+  background-color:#2e2f42;
+}
+
+.footer .logo__black-part{
+  color: #f4f4fd;
+}
+
+.footer .text-main{
+  color: #F4F4FD; 
+}
+
+/********************************** End of the Footer *********************************/
+
