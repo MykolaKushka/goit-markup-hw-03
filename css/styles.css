@@ -143,13 +143,83 @@ img{
 .hero-section__btn:hover, .hero-section__btn:focus{
   background-color: #404BBF;
 }
+
+.hero-section{
+  padding: 188px 0;
+}
+
+.hero-section__title{
+  max-width: 496px; 
+}
+
+.hero-section__btn{
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none; 
+  background-color: #4d5ae5; 
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 /******************************* End of the Hero section *******************************/
 
 
 /********************************** Advantages section *********************************/
 
+.advantages{
+  padding: 120px 0;
+}
+
+.advantages .title_lg{
+  visibility: hidden;
+}
+
+.advantages-list{
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-list-item{
+  width: calc((100% - 72px) / 4); 
+}
+
+.advantages .title_md{
+  margin-bottom: 8px;
+}
+
 /**************************** End of the Advantages section ****************************/
 
+/*********************************** Our Portfolio section *****************************/
+
+.portfolio{
+  padding-top: 120px; 
+  padding-bottom: 120px;
+}
+
+.portfolio .title_lg{
+  margin-bottom: 72px; 
+}
+
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px; 
+  row-gap: 48px; 
+}
+
+.portfolio-list-item{
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-info{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+/**************************** End of the Portfolio section *****************************/
 
 /*********************************** Our Team section **********************************/
 .team{
@@ -158,7 +228,33 @@ img{
 
 .card-person{
   background-color: #FFFFFF;
+}
 
+.team .title_lg{
+  margin-bottom: 72px; 
+}
+
+.team-list{
+  display: flex;
+  gap: 24px;
+}
+
+.card-person{
+  width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px
+}
+
+.card-person{
+  padding: 32px 0;
+}
+
+.card-person .title_md{
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.card-person .text-main{
+  text-align: center;
 }
 
 /**************************** End of the Our Team section ****************************/
@@ -176,6 +272,10 @@ img{
 
 .footer .text-main{
   color: #F4F4FD; 
+}
+
+.team{
+  padding: 120px 0;
 }
 
 /********************************** End of the Footer *********************************/
