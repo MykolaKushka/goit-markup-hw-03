@@ -188,7 +188,7 @@ img{
 }
 
 .advantages-list-item{
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px)/4);
 }
 
 .advantages .title_md{
@@ -213,7 +213,7 @@ img{
 }
 
 .card-person{
-  width: calc((100% - 72px) / 4); 
+  width: calc((100% - 72px)/4); 
   border-radius: 0px 0px 4px 4px; 
   background-color: #FFFFFF;
 }
@@ -253,7 +253,7 @@ img{
 }
 
 .portfolio-list-item{
-  width: calc((100% - 48px) / 3);
+  width: calc((100% - 48px)/3);
 }
 
 .portfolio-info{
@@ -274,6 +274,7 @@ img{
 
 .footer{
   background-color:#2e2f42;
+  padding: 100px 0;
 }
 
 .footer .logo__black-part{
@@ -282,6 +283,15 @@ img{
 
 .footer .text-main{
   color: #F4F4FD; 
+}
+
+.footer-inner{
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-inner .text-main{
+  max-width: 264px;
 }
 
 /********************************** End of the Footer *********************************/
