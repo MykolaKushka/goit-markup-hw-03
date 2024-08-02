@@ -64,6 +64,17 @@ img{
 
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 
 /******************************** Header section *********************************/
 .header-inner{
@@ -171,11 +182,6 @@ img{
   padding: 120px 0;
 }
 
-.advantages .title_lg{
-  visibility: hidden;
-  opacity: 0;
-}
-
 .advantages-list{
   display: flex;
   gap: 24px;
@@ -194,17 +200,7 @@ img{
 /*********************************** Our Team section (3) **********************************/
 .team{
   background-color: #F4F4FD;
-}
-
-.card-person{
-  background-color: #FFFFFF;
-  width: calc((100% - 72px) / 4); 
-  border-radius: 0px 0px 4px 4px;
-  padding: 32px 0;
-}
-
-.person-info{
-  padding: 32px 0;
+  padding: 120px 0
 }
 
 .team .title_lg{
@@ -214,6 +210,16 @@ img{
 .team-list{
   display: flex;
   gap: 24px;
+}
+
+.card-person{
+  width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px; 
+  background-color: #FFFFFF;
+}
+
+.person-info{
+  padding: 32px 0;
 }
 
 .card-person .title_md{
@@ -254,8 +260,12 @@ img{
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.portfolio-info .title_md{
   margin-bottom: 8px;
 }
+
 
 /**************************** End of the Portfolio section (4) *****************************/
 
@@ -272,10 +282,6 @@ img{
 
 .footer .text-main{
   color: #F4F4FD; 
-}
-
-.team{
-  padding: 120px 0;
 }
 
 /********************************** End of the Footer *********************************/
